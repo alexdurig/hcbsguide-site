@@ -65,24 +65,22 @@
         </ol>
         <a href="#contact" class="cta-button">Get Started Today</a>
     </section>
-
     <section class="section" id="contact">
         <h2>Request a Free Consultation</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="text" placeholder="State" required>
-            <input type="text" placeholder="HCBS Service Type" required>
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">Send Request</button>
-        </form>
+       <form action="https://formspree.io/f/xwvgjbvy" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="state" placeholder="State" required>
+    <input type="text" name="service" placeholder="HCBS Service Type" required>
+    <textarea name="message" placeholder="Message"></textarea>
+    <button type="submit">Send Request</button>
+</form>
     </section>
 
     <footer>
         <p>© 2026 HCBSGuide.site — HCBS Compliance Manuals & Provider Support</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
 
