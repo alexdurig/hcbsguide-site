@@ -114,5 +114,17 @@ form button {
 form button:hover {
     background-color: #362a6b;
 }
+footer {
+    background-color: #4b3b8f; /* your deep purple */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+}
 
 
