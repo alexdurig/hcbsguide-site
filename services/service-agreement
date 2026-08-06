@@ -1,17 +1,40 @@
-<header class="header" style="text-align: center; margin-top: 40px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCBS Services – HCBSGuide</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
 <!-- Purple Hero Banner -->
 <section style="background-color: #4B0082; color: white; padding: 40px 20px; text-align: center;">
-    <h1 style="margin: 0; font-size: 2.2em;">HCBSGuide Service Agreement</h1>
+    <h1 style="margin: 0; font-size: 2.2em;">HCBS Guide Services</h1>
     <p style="margin-top: 12px; font-size: 1.2em;">
-        Policies, Manuals and Compliance You Can Trust.
+        Professional HCBS documentation and compliance support for providers in all 50 states.
+    </p>
+
+    <p style="margin-top: 20px;">
+        <a href="/#consultation-form" class="cta-button" style="background-color: #007BFF; padding: 12px 20px; color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">
+            Request a Free Consultation
+        </a>
     </p>
 </section>
 
+<header class="header" style="text-align: center; margin-top: 40px;">
+    <h1>HCBS Services</h1>
+    <p class="tagline">Policies, Manuals, and Compliance You Can Trust.</p>
 </header>
+
+<main class="content">
+
+<!-- SECTION TEMPLATE -->
+<section class="section">
     <h1>HCBSGuide Service Agreement</h1>
     <p class="tagline"><it><b>~~HCBSGuide means <I>living documents</I> &#8594; Policies, Manuals, and Compliance You Can Trust~~</b></it></p></header>
  <p style="margin-top: 12px; font-size: 1.2em;">
-<h1>HCBSGuide Service Agreement</h1>
 <p>This Service Agreement outlines the boundaries of your project, which will not begin until you have provided us with the basic information relevant to your HCBS application. It assumes that there will be a transfer of important information through [1] an existing company document of yours, [2] a questionnaire provided by HCBSGuide, or [3] a conversation with Dr. Alexander Durig. Your project officially begins once we have received your basic information for the P&P Manual and you have signed this Service Agreement.</p>
 <p><b>What’s Included in Your HCBSGuide Policies & Procedures Manual for $2500<\b></p>
 <p>Client agrees that HCBSGuide will deliver this professionally developed manual that includes all required HCBS compliance domains, operational standards, and audit-ready documentation in one comprehensive Policies and Procedures Manual with 2 weeks to deliver the first draft from signed approval of the Service Agreement and receipt of your basic information, and 1-week turnaround time for all requested changes after delivering the first draft. Your P&P Manual will contain the following content that mirrors official checklist guidelines:</p>
