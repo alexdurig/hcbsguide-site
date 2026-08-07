@@ -7,31 +7,30 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 
-<body>
+<body style="background-color:white;">
 
-<!-- HCBSGuide Logo -->
-<div style="margin: 20px 0 0 20px;">
-    <!-- your SVG logo here -->
-<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .navy { fill: #0A1A2F; }
-      .gold { fill: #C9A44A; }
-      .serif { font-family: Georgia, serif; font-weight: 700; }
-      .sans { font-family: 'Segoe UI', sans-serif; font-weight: 600; }
-    </style>
-  </defs>
+<!-- Logo (top-left, flush) -->
+<div style="position:absolute; top:20px; left:20px;">
+    <svg width="300" height="60" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <style>
+                .navy { fill: #0A1A2F; }
+                .gold { fill: #C9A44A; }
+                .serif { font-family: Georgia, serif; font-weight: 700; }
+                .sans { font-family: 'Segoe UI', sans-serif; font-weight: 600; }
+            </style>
+        </defs>
 
-  <text x="0" y="75" class="navy serif" font-size="60" letter-spacing="1">HCBS</text>
-  <rect x="200" y="10" width="12" height="90" class="gold" />
-  <text x="230" y="75" class="navy sans" font-size="60">Gu</text>
-  <circle cx="310" cy="38" r="6" class="gold" />
-  <text x="300" y="75" class="navy sans" font-size="60">ide</text>
-</svg>
+        <text x="0" y="75" class="navy serif" font-size="60" letter-spacing="1">HCBS</text>
+        <rect x="200" y="10" width="12" height="90" class="gold" />
+        <text x="230" y="75" class="navy sans" font-size="60">Gu</text>
+        <circle cx="310" cy="38" r="6" class="gold" />
+        <text x="300" y="75" class="navy sans" font-size="60">ide</text>
+    </svg>
 </div>
 
 <!-- Navigation Bar -->
-<nav style="background-color:#4B0082; padding: 14px 20px; display:flex; justify-content:center; gap:30px; font-weight:600;">
+<nav style="margin-top:120px; background-color:#4B0082; padding:14px 20px; display:flex; justify-content:center; gap:30px; font-weight:600;">
     <a href="/" style="color:white; text-decoration:none;">Home</a>
     <a href="/services" style="color:white; text-decoration:none;">Services</a>
     <a href="/services/service-agreement.html" style="color:white; text-decoration:none;">Service Agreement</a>
@@ -39,103 +38,84 @@
     <a href="/checkout.html" style="color:white; text-decoration:none;">Checkout</a>
     <a href="/#consultation-form" style="color:white; text-decoration:none;">Contact</a>
 </nav>
+
+<!-- White spacing under nav bar -->
 <div style="height:20px;"></div>
 
 <!-- Purple Hero Banner -->
-<section style="background-color: #4B0082; color: white; padding: 40px 20px; text-align: center;">
-    <h1 style="margin: 0; font-size: 2.2em;">HCBSGuide Checkout</h1>
-    <p style="margin-top: 12px; font-size: 1.2em;">
-        Select your purchase below. Payments are securely processed through Stripe.</p>
+<section style="background-color:#4B0082; color:white; padding:40px 20px; text-align:center;">
+    <h1 style="margin:0; font-size:2.2em;">HCBSGuide Checkout</h1>
+    <p style="margin-top:12px; font-size:1.2em;">
+        Select your purchase below. Payments are securely processed through Stripe.
+    </p>
 </section>
-<div style="height:20px;"></div>
-<div class="container" style="max-width: 900px; margin: 0 auto; padding: 20px;">
-<center><p><i>You can choose to pay in full right now or ...</i></p>
-        <p><i>You can choose to pay 50% to start and 50% to finish.</i></p>
-        <p><i>Either way you get the same great service and the same 100% client satisfaction guarantee.</i></p></center>
-    <p>
-           </p>
- <!-- PRODUCT 1: HCBS Policies & Procedures Manual -->
+
+<!-- Main Content Container -->
+<div style="max-width:900px; margin:40px auto; padding:20px;">
+
+    <center>
+        <h1>HCBSGuide Checkout</h1>
+        <p>Select your purchase below. Payments are securely processed through Stripe.</p>
+        <p>You can choose to pay in full right now or ...</p>
+        <p>You can choose to pay 50% to start and 50% to finish.</p>
+        <p>Either way you get the same service and the same guarantee.</p>
+    </center>
+
+    <!-- PRODUCT 1 -->
     <section class="product">
         <h2>HCBS Policies & Procedures Manual</h2>
-        <p>
-            Audit‑ready, CMS Final Rule aligned, state‑specific HCBS Policies & Procedures Manual.
-            Delivered digitally upon purchase.
-        </p>
+        <p>Audit‑ready, CMS Final Rule aligned, state‑specific HCBS Policies & Procedures Manual.</p>
         <p><strong>Price:</strong> $2500</p>
         <a href="https://buy.stripe.com/5kQ28q2GC8ET9Pm1Dl9oc03" class="btn">Purchase Manual</a>
     </section>
 
-    <!-- PRODUCT 2: HCBS Compliance Subscription -->
+    <!-- PRODUCT 2 -->
     <section class="product">
         <h2>HCBS Compliance Subscription</h2>
-        <p>
-            Stay compliant year‑round with policy change alerts, manual updates, CMS guidance summaries,
-            and state‑specific regulatory updates.
-        </p>
+        <p>Stay compliant year‑round with policy change alerts, manual updates, CMS guidance summaries, and state‑specific regulatory updates.</p>
         <p><strong>Price:</strong> $30/month</p>
         <a href="https://buy.stripe.com/00wdR86WS5sHd1ygyf9oc04" class="btn">Subscribe — $30/month</a>
     </section>
 
-<!-- ADD-ON OFFERINGS SECTION -->
-<section class="checkout-section">
-  <h2 class="checkout-heading">Additional HCBS Compliance Documents</h2>
-  <p class="checkout-subheading">Choose any add-on below to enhance your agency’s compliance package.</p>
+    <!-- ADD-ONS -->
+    <section class="checkout-section">
+        <h2 class="checkout-heading">Additional HCBS Compliance Documents</h2>
+        <p class="checkout-subheading">Choose any add-on below to enhance your agency’s compliance package.</p>
 
-  <div class="checkout-grid">
+        <div class="checkout-grid">
 
-    <!-- Employee Handbook -->
-    <div class="checkout-card">
-      <h3>Employee Handbook</h3>
-      <p class="price-range">$750 – $1,200</p>
-      <p class="description">
-        A complete, Iowa HCBS‑aligned Employee Handbook covering policies, procedures, ethics, conduct, and regulatory compliance.
-      </p>
-      <a class="checkout-button" href="https://buy.stripe.com/eVqfZgftof3h8Li6XF9oc0b" target="_blank">
-        Purchase Employee Handbook
-      </a>
-    </div>
+            <div class="checkout-card">
+                <h3>Employee Handbook</h3>
+                <p class="price-range">$750 – $1,200</p>
+                <p>A complete, Iowa HCBS‑aligned Employee Handbook covering policies, procedures, ethics, conduct, and regulatory compliance.</p>
+                <a class="checkout-button" href="https://buy.stripe.com/eVqfZgftof3h8Li6XF9oc0b" target="_blank">Purchase Employee Handbook</a>
+            </div>
 
-    <!-- Member Handbook -->
-    <div class="checkout-card">
-      <h3>Member Handbook</h3>
-      <p class="price-range">$500 – $900</p>
-      <p class="description">
-        A clear, accessible Member Handbook written for individuals receiving HCBS services, aligned with your State-specific waiver requirements.
-      </p>
-      <a class="checkout-button" href="https://buy.stripe.com/9B6bJ06WS4oDd1y95N9oc0c" target="_blank">
-        Purchase Member Handbook
-      </a>
-    </div>
+            <div class="checkout-card">
+                <h3>Member Handbook</h3>
+                <p class="price-range">$500 – $900</p>
+                <p>A clear, accessible Member Handbook written for individuals receiving HCBS services.</p>
+                <a class="checkout-button" href="https://buy.stripe.com/9B6bJ06WS4oDd1y95N9oc0c" target="_blank">Purchase Member Handbook</a>
+            </div>
 
-    <!-- PCSP Template -->
-    <div class="checkout-card">
-      <h3>PCSP Template</h3>
-      <p class="price-range">$300 – $500</p>
-      <p class="description">
-        A professionally structured Person‑Centered Service Plan template designed for your State-specific HCBS SCL and ID/BI waiver compliance.
-      </p>
-      <a class="checkout-button" href="https://buy.stripe.com/00w6oG80W08n9Pmdm39oc0d" target="_blank">
-        Purchase PCSP Template
-      </a>
-    </div>
+            <div class="checkout-card">
+                <h3>PCSP Template</h3>
+                <p class="price-range">$300 – $500</p>
+                <p>A professionally structured Person‑Centered Service Plan template aligned with HCBS expectations.</p>
+                <a class="checkout-button" href="https://buy.stripe.com/00w6oG80W08n9Pmdm39oc0d" target="_blank">Purchase PCSP Template</a>
+            </div>
 
-    <!-- Appendix Set A–G -->
-    <div class="checkout-card">
-      <h3>Appendix Set A–G</h3>
-      <p class="price-range">$1,200 – $1,800</p>
-      <p class="description">
-        Complete Appendix Set A–G including tiered rate schedule, SCL service component summary, org chart, Medicaid enrollment, PCSP, IAC 441‑77.37 summary, and pro forma financials.
-      </p>
-      <a class="checkout-button" href="https://buy.stripe.com/dRm8wOchc6wL9Pm1Dl9oc0e" target="_blank">
-        Purchase Appendix Set A–G
-      </a>
-    </div>
+            <div class="checkout-card">
+                <h3>Appendix Set A–G</h3>
+                <p class="price-range">$1,200 – $1,800</p>
+                <p>Complete Appendix Set A–G including tiered rate schedule, SCL service component summary, org chart, Medicaid enrollment, PCSP, regulatory summary, and financials.</p>
+                <a class="checkout-button" href="https://buy.stripe.com/dRm8wOchc6wL9Pm1Dl9oc0e" target="_blank">Purchase Appendix Set A–G</a>
+            </div>
 
-  </div>
-</section>
+        </div>
+    </section>
 
 </div>
 
 </body>
 </html>
-
