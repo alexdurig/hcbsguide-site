@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Colors -->
+    <title>HCBSGuide – Checkout</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+<!-- HCBSGuide Logo -->
+<div style="text-align:center; margin-top:20px;">
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .navy { fill: #0A1A2F; }
@@ -14,26 +21,14 @@
     </style>
   </defs>
 
-  <!-- HCBS -->
   <text x="0" y="75" class="navy serif" font-size="60" letter-spacing="1">HCBS</text>
-
-  <!-- Full-height thick gold divider -->
   <rect x="200" y="10" width="12" height="90" class="gold" />
-
-  <!-- Guide -->
   <text x="230" y="75" class="navy sans" font-size="60">Gu</text>
-
-  <!-- Gold dot above the i -->
   <circle cx="310" cy="38" r="6" class="gold" />
-
-  <!-- The rest of "ide" -->
   <text x="300" y="75" class="navy sans" font-size="60">ide</text>
 </svg>
-    <title>HCBSGuide – Checkout</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
+</div>
 
-<body>
 <!-- Navigation Bar -->
 <nav style="background-color:#4B0082; padding: 14px 20px; display:flex; justify-content:center; gap:30px; font-weight:600;">
     <a href="/" style="color:white; text-decoration:none;">Home</a>
@@ -43,15 +38,26 @@
     <a href="/checkout.html" style="color:white; text-decoration:none;">Checkout</a>
     <a href="#consultation-form" style="color:white; text-decoration:none;">Contact</a>
 </nav>
+
+<!-- Purple Hero Banner -->
+<section style="background-color: #4B0082; color: white; padding: 40px 20px; text-align: center;">
+    <h1 style="margin: 0; font-size: 2.2em;">HCBSGuide Checkout</h1>
+    <p style="margin-top: 12px; font-size: 1.2em;">
+        Select your purchase below. Payments are securely processed through Stripe.
+    </p>
+</section>
+
 <div style="height:20px;"></div>
 
 <div class="container">
 
-    <center><h1>HCBSGuide Checkout</h1>
-    <p>Select your purchase below. Payments are securely processed through Stripe.</p>
-    <p>You can choose to pay in full right now or ...</p>
-    <p> You can choose to pay 50% to start and 50% to finish.</p>
-    <p>Either way you get the same service and the same guarantee.</p></center>
+    <center>
+        <h1>HCBSGuide Checkout</h1>
+        <p>Select your purchase below. Payments are securely processed through Stripe.</p>
+        <p>You can choose to pay in full right now or ...</p>
+        <p>You can choose to pay 50% to start and 50% to finish.</p>
+        <p>Either way you get the same service and the same guarantee.</p>
+    </center>
 
     <!-- PRODUCT 1: HCBS Policies & Procedures Manual -->
     <section class="product">
@@ -61,8 +67,6 @@
             Delivered digitally upon purchase.
         </p>
         <p><strong>Price:</strong> $2500</p>
-
-        <!-- Replace YOUR_STRIPE_CHECKOUT_URL with your Stripe link -->
         <a href="https://buy.stripe.com/5kQ28q2GC8ET9Pm1Dl9oc03" class="btn">Purchase Manual</a>
     </section>
 
@@ -74,10 +78,9 @@
             and state‑specific regulatory updates.
         </p>
         <p><strong>Price:</strong> $30/month</p>
-
-        <!-- Replace YOUR_STRIPE_CHECKOUT_URL with your Stripe link -->
         <a href="https://buy.stripe.com/00wdR86WS5sHd1ygyf9oc04" class="btn">Subscribe — $30/month</a>
     </section>
+
 <!-- ADD-ON OFFERINGS SECTION -->
 <section class="checkout-section">
   <h2 class="checkout-heading">Additional HCBS Compliance Documents</h2>
@@ -140,3 +143,4 @@
 
 </body>
 </html>
+
