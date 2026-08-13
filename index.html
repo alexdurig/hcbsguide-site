@@ -259,7 +259,17 @@
 
 
 </head>
- 
+ <svg>
+  <filter id="gooey">
+    <feMorphology operator="dilate" radius="0.8" in="SourceGraphic" result="dilate"/>
+    
+    <feGaussianBlur in="dilate" stdDeviation="2.2" result="blur" />
+    <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+    <feComposite in="SourceGraphic" in2="goo" operator="atop" result="gooey" />
+  </filter>
+</svg>
+
+<div class="text">Have a nice day ✨</div>
 <body>
 <!-- Navigation Bar -->
 <nav style="background-color:#4B0082; padding: 14px 20px; display:flex; justify-content:center; gap:30px; font-weight:600;">
